@@ -11,6 +11,9 @@ int main()
     printf("Sin = %f\n", sin(x));
     printf("Cos = %f\n", cos(x));
     printf("Log = %f \n", log(x));
+    printf("Absolute Value = %f \n", fabs(x));
+    printf("Ceiling = %f \n", ceil(x));
+    printf("Floor = %f \n", floor(x));
     printf("Square root = %f\n", sqrt(x));
     float a,b;
     printf("Provide two values for power function: ");
