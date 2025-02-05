@@ -2,9 +2,10 @@
 int main(){
     printf("\n Simple Interest Calculator \n");
 
-    float p, r, t, si;
+    int p, t;
+    float r, si;
     printf("\n Enter principal, rate, time: ");
-    scanf("%f%f%f", &p, &r, &t);
+    scanf("%d%f%d", &p, &r, &t);
 
     si = (p*r*t)/100;
     printf("\n \t Simple Interest = %.2f", si);
