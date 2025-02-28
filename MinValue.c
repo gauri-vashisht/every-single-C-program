@@ -19,7 +19,6 @@ int main()
         if(arr[i]<least)
         {
             least=arr[i];
-            i++;
         }
     }
     printf("Least value in array = %d", least);
